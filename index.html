@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Club Proposal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css"
+      integrity="sha512-y6ZMKFUQrn+UUEVoqYe8ApScqbjuhjqzTuwUMEGMDuhS2niI8KA3vhH2LenreqJXQS+iIXVTRL2iaNfJbDNA1Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="m-16">
+      <h6 class="font-bold">Club Proposal</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, sed.</p>
+      <h6 class="font-bold mt-10">Club Title</h6>
+      <p>Your club name is the headline that draws the students in.</p>
+      <div class="mt-8">
+        <input
+          type="text"
+          name="club-title"
+          id="club-title"
+          placeholder="Club Title"
+          class="
+            shadow-sm
+            focus:ring-green-500 focus:border-green-500
+            block
+            w-full
+            p-3
+            sm:text-sm
+            border
+            rounded-md
+          "
+        />
+      </div>
+      <h6 class="font-bold mt-12">Club Description</h6>
+      <p>
+        The club description is VERY important. Students will use this to decide
+        if they want to sign up for your  club.
+      </p>
+      <div class="mt-8">
+        <textarea
+          type="text"
+          name="club-description"
+          id="club-description"
+          placeholder="Club Description"
+          rows="6"
+          class="
+            shadow-sm
+            focus:ring-green-500 focus:border-green-500
+            block
+            w-full
+            p-3
+            sm:text-sm
+            border
+            rounded-md
+          "
+        ></textarea>
+        <div class="flex flex-wrap justify-between mt-12">
+          <div>
+            <h6 class="font-bold">Club Type</h6>
+            <p class="max-w-xl">
+              In order for us to plan out the season it is helpful if  you can
+              categorize your offering. Please choose one  option.
+            </p>
+          </div>
+          <div>
+            <div class="mt-4 space-y-4">
+              <div class="flex items-center">
+                <input
+                  id="stem"
+                  name="type"
+                  type="radio"
+                  class="
+                    focus:ring-green-500 focus:border-green-500
+                    h-4
+                    w-4
+                    text-green-600
+                    border-gray-300
+                  "
+                />
+                <label for="stem" class="ml-3">
+                  <span class="block text-sm font-medium text-gray-700"
+                    >STEM</span
+                  >
+                </label>
+              </div>
+              <div class="flex items-center">
+                <input
+                  id="language-arts"
+                  name="type"
+                  type="radio"
+                  class="
+                    focus:ring-green-500 focus:border-green-500
+                    h-4
+                    w-4
+                    border-gray-300
+                  "
+                />
+                <label for="language-arts" class="ml-3">
+                  <span class="block text-sm font-medium text-gray-700"
+                    >Language Arts</span
+                  >
+                </label>
+              </div>
+              <div class="flex items-center">
+                <input
+                  id="arts"
+                  name="type"
+                  type="radio"
+                  class="
+                    focus:ring-green-500 focus:border-green-500
+                    h-4
+                    w-4
+                    border-gray-300
+                  "
+                />
+                <label for="arts" class="ml-3">
+                  <span class="block text-sm font-medium text-gray-700"
+                    >Arts</span
+                  >
+                </label>
+              </div>
+              <div class="flex items-center">
+                <input
+                  id="music"
+                  name="type"
+                  type="radio"
+                  class="
+                    focus:ring-green-500 focus:border-green-500
+                    h-4
+                    w-4
+                    border-gray-300
+                  "
+                />
+                <label for="music" class="ml-3">
+                  <span class="block text-sm font-medium text-gray-700"
+                    >Music</span
+                  >
+                </label>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="mt-4 space-y-4">
+              <div class="flex items-center">
+                <input
+                  id="peformance"
+                  name="type"
+                  type="radio"
+                  class="
+                    focus:ring-green-500 focus:border-green-500
+                    h-4
+                    w-4
+                    text-green-600
+                    border-gray-300
+                  "
+                />
+                <label for="peformance" class="ml-3">
+                  <span class="block text-sm font-medium text-gray-700"
+                    >Performance/Dance</span
+                  >
+                </label>
+              </div>
+              <div class="flex items-center">
+                <input
+                  id="sports"
+                  name="type"
+                  type="radio"
+                  class="
+                    focus:ring-green-500 focus:border-green-500
+                    h-4
+                    w-4
+                    border-gray-300
+                  "
+                />
+                <label for="sports" class="ml-3">
+                  <span class="block text-sm font-medium text-gray-700"
+                    >Sports and Games</span
+                  >
+                </label>
+              </div>
+              <div class="flex items-center">
+                <input
+                  id="crafts"
+                  name="type"
+                  type="radio"
+                  class="
+                    focus:ring-green-500 focus:border-green-500
+                    h-4
+                    w-4
+                    border-gray-300
+                  "
+                />
+                <label for="crafts" class="ml-3">
+                  <span class="block text-sm font-medium text-gray-700"
+                    >Crafts</span
+                  >
+                </label>
+              </div>
+              <div class="flex items-center">
+                <input
+                  id="other"
+                  name="type"
+                  type="radio"
+                  class="
+                    focus:ring-green-500 focus:border-green-500
+                    h-4
+                    w-4
+                    border-gray-300
+                  "
+                />
+                <label for="other" class="ml-3">
+                  <span class="block text-sm font-medium text-gray-700"
+                    >Other</span
+                  >
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h6 class="font-bold mt-12">Image</h6>
+        <p class="max-w-xl">
+          You may add an image to illustrate your club. It will show on the
+          registration page as well as on the list of  clubs open for
+          registration.
+        </p>
+        <div
+          class="
+            max-w-lg
+            flex
+            justify-center
+            px-6
+            mt-12
+            pt-5
+            pb-6
+            border-2 border-gray-300 border-dashed
+            rounded-md
+          "
+        >
+          <div class="space-y-1 text-center">
+            <svg
+              class="mx-auto h-12 w-12 text-gray-400"
+              stroke="currentColor"
+              fill="none"
+              viewbox="0 0 48 48"
+              aria-hidden="true"
+            >
+              <path
+                d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <div class="flex text-sm text-gray-600">
+              <label
+                for="file-upload"
+                class="
+                  relative
+                  cursor-pointer
+                  bg-white
+                  rounded-md
+                  font-medium
+                  text-green-600
+                  hover:text-green-500
+                  focus-within:outline-none
+                  focus-within:ring-2
+                  focus-within:ring-offset-2
+                  focus-within:ring-green-500
+                "
+              >
+                <span>Upload a file</span>
+                <input
+                  id="file-upload"
+                  name="file-upload"
+                  type="file"
+                  class="sr-only"
+                />
+              </label>
+              <p class="pl-1">or drag and drop</p>
+            </div>
+            <p class="text-xs text-gray-500">PNG, JPG, GIF up to 10MB</p>
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="
+            flex
+            mt-12
+            ml-auto
+            py-2
+            px-4
+            border border-transparent
+            shadow-sm
+            text-sm
+            font-medium
+            rounded-md
+            text-white
+            bg-green-600
+            hover:bg-green-700
+            focus:outline-none
+            focus:ring-2
+            focus:ring-offset-2
+            focus:ring-green-500
+          "
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
